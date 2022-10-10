@@ -8,6 +8,8 @@ Version: [scenera.node](https://pypi.org/project/scenera.node/)==0.2.12
 
 Made by Taekyu Ryu
 
+More information about the Scenera ecosystem can be found on [https://docs.scenera.live](https://docs.scenera.live)
+
 ---
 
 ## Getting Started
