@@ -87,7 +87,7 @@ python3 yolov5_node/main.py
 
 ```bash
 docker build \
-    -t nicescenera.azurecr.io/yolov5node:latest \
+    -t <docker-repository>/yolov5node:latest \
     --file="$PWD/deployment/docker/Dockerfile" \
     $PWD
 ```
@@ -99,7 +99,7 @@ docker run --rm -it \
     --name=YoloV5Node \
     -e FLASK_RUN_PORT=5000 \
     -p 127.0.0.1:8080:5000 \
-    nicescenera.azurecr.io/yolov5node:latest
+    <docker-repository>/yolov5node:latest
 ```
 
 #### Testing the Node
